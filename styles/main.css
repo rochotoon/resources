@@ -1,10 +1,18 @@
+.myIframe{ 
+  position: relative; padding-bottom: 200%; height: 0; overflow: hidden;
+}
+
+.responsiveCal iframe {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%
+}
+
 #intro {
-  background: url("https://cdn.jsdelivr.net/gh/rochotoon/resources/img/bkg.png") no-repeat center center;
+  background: url("https://cdn.jsdelivr.net/gh/rochotoon/resources/img/tst.png") no-repeat center center;
   background-size: cover;
 }
 
 .top-nav-collapse {
-  background-color: #3949ab !important;
+  background-color: #65cfe7 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -13,7 +21,7 @@
 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background: #3949ab !important;
+    background: #65cfe7 !important;
   }
 }
 
